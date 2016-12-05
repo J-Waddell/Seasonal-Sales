@@ -2,17 +2,39 @@
 <html>
 <head>
         <title>Seasonal-Sales</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="main.css">
 </head>
-<body>
-<div class="products">
 
+<body>
+
+<div class="container">
+        <div class="col-md-12">
+                <div class="col-md-12">
+                        <div class="seasonNames">
+                        <select name="seasons" id="season_discount">
+                        <option value="winter">Winter</option>
+                        <option value="autumn">Autumn</option>
+                        <option value="spring">Spring</option>
+                        </select>
+                        </div>
+                </div>
+        </div>
 </div>
 
-<div class="categories">
+<div class="container">
+        <div class="col-md-8 col-md-offset-4">
+                <div id="products">
 
+                </div>
+        </div>
+</div>
+
+<div id="categories">
 </div>
 
 <script type="text/javascript" src="seasonal-sales.js">
 </script>
+
 </body>
 </html>
